@@ -41,8 +41,8 @@ export class ENgxPrintComponent implements OnInit {
 			'print-btn': true,
 			'print-btn-success': true
 		};
-		this.popTitle = '打印窗口';
-		this.btnText = '打印';
+		this.popTitle = 'print';
+		this.btnText = 'print';
 		this.oldBtnText = this.btnText;
 		this.printComplete = new EventEmitter<any>(false);
 	}
