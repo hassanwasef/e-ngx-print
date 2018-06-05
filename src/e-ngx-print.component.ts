@@ -41,8 +41,8 @@ export class ENgxPrintComponent implements OnInit {
 			'print-btn': true,
 			'print-btn-success': true
 		};
-		this.popTitle = '打印窗口';
-		this.btnText = '打印';
+		this.popTitle = 'print';
+		this.btnText = 'print';
 		this.oldBtnText = this.btnText;
 		this.printComplete = new EventEmitter<any>(false);
 	}
@@ -196,7 +196,7 @@ export class ENgxPrintComponent implements OnInit {
 	print(printHTML?: any) {
 		this.printHTML = printHTML ? printHTML : this.printHTML;
 		this.oldBtnText = this.btnText;
-		this.btnText = '准备打印...';
+		this.btnText = 'printing...';
 		let timeoutId: number = window.setTimeout(() => {
 			window.clearTimeout(timeoutId);
 			this.getPrintWindow();
