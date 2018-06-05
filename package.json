@@ -1,5 +1,5 @@
 {
-	"name": "e-ngx-print",
+	"name": "e-ngx-printEnglish",
 	"version": "5.0.0",
 	"description": "基于Angular的打印组件，可打印HTML和文本。",
 	"keywords": [
@@ -10,7 +10,7 @@
 	"homepage": "https://github.com/laixiangran/e-ngx-print#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/laixiangran/e-ngx-print.git"
+		"url": "https://github.com/hassanwasef/e-ngx-print.git"
 	},
 	"author": {
 		"name": "赖祥燃",
