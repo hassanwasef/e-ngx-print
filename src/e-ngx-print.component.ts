@@ -196,7 +196,7 @@ export class ENgxPrintComponent implements OnInit {
 	print(printHTML?: any) {
 		this.printHTML = printHTML ? printHTML : this.printHTML;
 		this.oldBtnText = this.btnText;
-		this.btnText = '准备打印...';
+		this.btnText = 'printing...';
 		let timeoutId: number = window.setTimeout(() => {
 			window.clearTimeout(timeoutId);
 			this.getPrintWindow();
